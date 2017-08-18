@@ -5,4 +5,5 @@ if [ "x${BUCKETS}" != "x" ]; then
         mkdir -p "/data/${bucket}"
     done
 fi
-exec /usr/local/bin/s3rver -d /data -h 0.0.0.0 -p 10001
+cd /srv
+exec $(npm bin)/s3rver -d /data -h 0.0.0.0 -p 10001

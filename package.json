@@ -1,0 +1,19 @@
+{
+  "name": "s3dummy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foobert/s3dummy.git"
+  },
+  "author": "foobert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foobert/s3dummy/issues"
+  },
+  "homepage": "https://github.com/foobert/s3dummy#readme",
+  "dependencies": {
+    "s3rver": "^1.0.3"
+  }
+}
